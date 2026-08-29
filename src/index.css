@@ -1,0 +1,23 @@
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: lightblue;
+}
+button {
+  background-color: darkorange;
+  color: darkslategray;
+}
+form {
+  margin: 10%;
+  max-width: 40rem;
+  padding: 2rem;
+  font-display: block;
+  font-size: small;
+  text-align: left;
+  background-color: darkslategrey;
+  color:darkorange;
+}

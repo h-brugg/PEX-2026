@@ -1,0 +1,33 @@
+<!DOCTYPE html,script>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ELETROBOMBASDB</title>
+  </head>
+  <body>
+    <h1>ELETRO BOMBAS DB</h1>
+    <h9></h9>
+<p>
+<form name="ipcForm">
+  <label for="data">data: </label><input type="datetime-local" id="data" name="dia">
+  <br>
+  <label for="nome">empresa:</label><input type="text" id="nome" name="nome">
+  <br>
+  <label for="tipo">tipo:</label>
+  <select name="tipo" id="tipo">
+  <option value="orcamento">orçamento</option>
+  <option value="pedido">pedido</option>
+  <option value="faturado">faturado</option>
+  </select>
+  <br>
+  <label for="valor">valor:</label><input type="text" id="valor" name="valor">
+  <br>
+  <label for="desc">descrição:</label><input type="text" id="desc" name="desc">
+  <br>
+  <label for="user">funcionário:</label><input type="text" id="user" name="user">
+  <br>
+  <input type="submit" id="btnSalvar" value="salvar">
+</form>
+  </body>
+  <script src="renderer.js"></script>
+</html>
